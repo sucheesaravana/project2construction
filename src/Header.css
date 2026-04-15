@@ -54,7 +54,7 @@ html{
   height: 90vh;
   background: url(assets/Image7.png)
   center/cover no-repeat;
-  /* animation: zoomOut 2s ease-in-out forwards; */
+  animation: zoomOut 2s ease-in-out forwards;
   display: flex;
   align-items: center;
   width: 100%;.hero1 {

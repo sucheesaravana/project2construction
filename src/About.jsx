@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import download from "./assets/download.webp";
 import Image2 from "./assets/Image2.png";
-import p1 from "./assets/p1.png";
+import P1 from "./assets/P1.png";
 import p2 from "./assets/p2.png";
 import p3 from "./assets/p3.png";
 import p4 from "./assets/p4.png";
@@ -123,7 +123,7 @@ import p4 from "./assets/p4.png";
 
   <div className="team-container">
     <div className="team-card">
-      <img src={p1} alt="" />
+      <img src={P1} alt="" />
       <h4>Robert Anderson</h4>
     </div>
 

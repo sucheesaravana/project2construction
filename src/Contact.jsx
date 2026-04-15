@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.css";
+import "./Contact.css";
 import mapp from "./assets/mapp.png";
 const Contact = () => {
   return (
