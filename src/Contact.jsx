@@ -1,11 +1,17 @@
 import React from "react";
 import "./Contact.css";
 import mapp from "./assets/mapp.png";
+import Image10 from "./assets/Image10.png";
+
 const Contact = () => {
   return (
     <div id="Contact">
       {/* HERO SECTION */}
-      <section className="herooooo">
+      {/* <div
+        className="herooo"
+        style={{ backgroundImage: `url(${Image10})` }}
+      ></div> */}
+      <section className="c-hero">
         <div className="overley2">
           <h1>Lets Build Something Great Together.</h1>
           <p>

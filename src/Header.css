@@ -6,6 +6,7 @@
 }
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 .abc {
   width: 100%;
@@ -20,7 +21,12 @@ html{
   background: #fff;
   position: sticky;
   top: 0;
-  z-index: 1000;   /* important */
+  z-index: 9999;  
+  }  
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo img{
@@ -52,15 +58,13 @@ html{
 .hero1 {
   position: relative;
   height: 90vh;
-  background: url(assets/Image7.png)
-  center/cover no-repeat;
+  background: url("/src/assets/Image7.png") center/cover no-repeat;
   animation: zoomOut 2s ease-in-out forwards;
   display: flex;
   align-items: center;
-  width: 100%;.hero1 {
-  position: relative;
+  width: 100%;
   z-index: 0;
-}
+  margin-top: 10%;
 }
 
 .overlay {

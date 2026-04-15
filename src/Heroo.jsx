@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Heroo.css";
-
+import building from "./assets/building.png"
 const Heroo = () => {
   return (
     <section className="hero">
@@ -28,7 +28,7 @@ const Heroo = () => {
       <div className="hero-right">
         <div className="image-card">
           <img
-            src="/src/assets/building.png"
+            src={building}
             alt="building"
           />
          <div className="card-badge top">

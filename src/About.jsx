@@ -10,6 +10,10 @@ import p4 from "./assets/p4.png";
   return (
     <div id="About">
       {/* HERO SECTION */}
+      {/* <div
+        className="herooo"
+        style={{ backgroundImage: `url(${Image2})` }}
+      ></div> */}
       <section className="herooooo">
         <div className="overley2">
           <h1>Building Landmarks. Delivering Excellence.</h1>

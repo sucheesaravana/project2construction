@@ -18,7 +18,7 @@
   color: #fff;
   margin-top: 20px;
 }
-.overley1 {
+.overley2 {
   height: 100%;
   width: 100%;
   display: flex;
@@ -27,11 +27,11 @@
   align-items: center;
 }
 
-.overley1 h1{
+.overley2 h1{
 color: yellow;
 padding-bottom: 30px;
 }
-.overley1 p{
+.overley2 p{
   padding-top: 30px;
 color: white;
 }

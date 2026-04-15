@@ -64,6 +64,10 @@ const Projects = () => {
   return (
     <div id="Projects">
       {/* Hero Section */}
+      {/* <div
+        className="herooo"
+        style={{ backgroundImage: `url(${Image10})` }}
+      ></div> */}
       <section className="herooooo">
         <div className="overley2">
           <h1>Building Landmarks. Delivering Excellence.</h1>
