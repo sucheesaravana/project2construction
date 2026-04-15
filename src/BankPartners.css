@@ -1,0 +1,82 @@
+/* Section */
+.bank-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f5f5f5;
+}
+
+.bank-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.bank-section p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Slider */
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Track */
+.slide-track {
+  display: flex;
+  width: calc(250px * 10); /* 2x logos */
+  animation: scroll 20s linear infinite;
+}
+
+/* Each logo */
+.slide {
+  width: 250px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  width: 150px;
+  height: auto;
+  /* filter: grayscale(100%); */
+  transition: 0.3s;
+}
+
+.slide img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* .slider:hover .slide-track {
+  animation-play-state: paused;
+}
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+} */
+
+/* .slider::before {
+  left: 0;
+  background: linear-gradient(to right, #f5f5f5, transparent);
+} */
+
+/* .slider::after {
+  right: 0;
+  background: linear-gradient(to left, #f5f5f5, transparent);
+} */

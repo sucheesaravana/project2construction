@@ -1,0 +1,96 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(10, 15, 30, 0.9), rgba(10, 15, 30, 0.6)),
+              url("/src/assets/Image8.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+/* LEFT SIDE */
+.hero-left {
+  width: 50%;
+}
+.hero-left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.hero-left span {
+  color: #fbbf24;
+}
+.hero-left p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #ddd;
+}
+.hero-left ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.hero-left ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.hero-left ul li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: #fbbf24;
+}
+.cta-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to right, #fbbf24, #f59e0b);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* RIGHT SIDE */
+.hero-right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.image-card {
+ position: relative;
+  width: 350px;
+  transform: rotate(-5deg);
+}
+.image-card img {
+  width: 100%;
+  border-radius: 20px;
+}
+/* FLOATING BADGES */
+.card-badge {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+.card-badge.top {
+  top: 10px;
+  right: -20px;
+}
+.card-badge.bottom {
+  bottom: -10px;
+  left: -20px;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-left, .hero-right {
+    width: 100%;
+  }
+  .image-card {
+    margin-top: 30px;
+    transform: rotate(0);
+  }
+}

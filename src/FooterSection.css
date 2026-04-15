@@ -1,0 +1,117 @@
+/* CTA SECTION */
+.cta-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px 150px;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  }
+
+/* DARK BLUE OVERLAY (EXACT LOOK) */
+.overlay1 {
+  background: rgba(10, 25, 47, 0.85); 
+  padding: 100px 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  
+}
+
+.overlay1 h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.overlay1 h2 span {
+  color: #fdb913; 
+}
+
+.overlay1 p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+/* BUTTON */
+.cta-btn {
+  background: #fdb913;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: #ffcc33;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.features span {
+  color: #fff;
+}
+
+/* CURVE SHAPE */
+/* .curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #0b1c2c;
+  border-top-left-radius: 100% 50px;
+  border-top-right-radius: 100% 50px;
+} */
+
+/* FOOTER */
+.footer {
+    margin-top: 10%;;
+  background: #0b1c2c; /* 🔥 exact footer dark blue */
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  margin-bottom: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-col p:hover {
+  color: #fdb913;
+}
+
+/* LOGO */
+.logo-col img {
+  width: 200px;
+}

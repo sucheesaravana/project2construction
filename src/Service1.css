@@ -1,0 +1,89 @@
+.Service1 {
+  padding: 60px 80px;
+  width: auto;
+  height: 20%;
+  
+}
+.herooo {
+  height: 50vh; /* 25% of viewport height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 15px;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay h1{
+color: yellow;
+padding-bottom: 30px;
+}
+.overlay p{
+  padding-top: 30px;
+color: white;
+text-align: center;
+}
+/* ROW */
+.service-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+/* REVERSE (for 2,4,6) */
+.service-row.reverse {
+  flex-direction: row-reverse;
+  }
+
+/* IMAGE */
+.image-box img {
+  width: 450px;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: fit-content;
+}
+
+.image-box img:hover {
+  transform: scale(1.05);
+}
+
+/* TEXT */
+.text-box {
+  max-width: 500px;
+}
+
+.text-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.text-box h4 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.text-box p {
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .service-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .image-box img {
+    width: 100%;
+  }
+}

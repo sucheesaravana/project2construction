@@ -1,0 +1,72 @@
+.client-section {
+  background: linear-gradient(rgba(8, 20, 32, 0.85), rgba(10, 22, 39, 0.85)),
+              url("https://via.placeholder.com/1200x600") no-repeat center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #fff;
+  color: #333;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  background-color: rgba(129, 133, 141, 0.85)
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 20px;
+    color: #fff;
+
+}
+
+/* Client Info */
+.client-info {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 15px;
+  color: #fff;
+}
+
+.client-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Stats Row */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.stats h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #ffc107;
+}
+
+.stats p {
+  font-size: 14px;
+}

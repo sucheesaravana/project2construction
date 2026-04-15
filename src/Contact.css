@@ -1,0 +1,178 @@
+ #Contact {
+  padding: 50px;
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HERO SECTION */
+.herooooo {
+  height: 35vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("/src/assets/Image9.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.overley2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overley2 h1 {
+  color: #ffd700;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.overley2 p {
+  color: #fff;
+  font-size: 16px;
+  max-width: 600px;
+}
+
+/* CONTACT SECTION */
+.contact-container {
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+  margin-top: 40px;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-left h2 {
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+.contact-left span {
+  color: #f4a100;
+}
+
+/* INFO GRID */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.info-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card .icon {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* RIGHT SIDE FORM */
+.contact-right {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-right h3 {
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form button {
+  background: #f4a100;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.form button:hover {
+  background: #d18c00;
+}
+
+/* MAP SECTION */
+.mapp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mapp img {
+  width: 60%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.mapp img:hover {
+  transform: scale(1.03);
+}
+
+
